@@ -1,8 +1,6 @@
-package com.cahill.synchronizeddisruption;
+package org.apache.solr.core;
 
 import org.apache.solr.common.util.NamedList;
-import org.apache.solr.core.SolrCore;
-import org.apache.solr.core.SolrEventListener;
 import org.apache.solr.search.SolrIndexSearcher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +13,8 @@ public class SolrEventListenerGC implements SolrEventListener {
   private final static Logger logger = LoggerFactory.getLogger(SolrEventListenerGC.class);
 
   private static final ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor();
+
+  public SolrEventListenerGC(SolrCore core) {};
 
   @Override
   public void postCommit() {
