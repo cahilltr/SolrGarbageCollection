@@ -23,7 +23,7 @@
         <commons-cli.version>1.2</commons-cli.version>
         <commons-io.version>2.4</commons-io.version>
 
-        <junit.version>4.11</junit.version>
+        <junit.version>4.13.1</junit.version>
 
         <solr.version>6.2.1</solr.version>
         <solr-solrj.version>${solr.version}</solr-solrj.version>
