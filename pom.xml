@@ -25,7 +25,7 @@
 
         <junit.version>4.11</junit.version>
 
-        <solr.version>6.2.1</solr.version>
+        <solr.version>8.8.2</solr.version>
         <solr-solrj.version>${solr.version}</solr-solrj.version>
         <solr-test-framework.version>${solr.version}</solr-test-framework.version>
     </properties>
